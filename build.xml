@@ -14,8 +14,8 @@
     <property name="dir.docs" value="target/docs"/>
 
     <path id="test.classpath">
-        <pathelement location="${dir.test.build}"/>
         <pathelement location="${dir.main.build}"/>
+        <pathelement location="${dir.test.build}"/>
         <fileset dir="${dir.test.lib}">
             <include name="*.jar"/>
             <include name="*.zip"/>
@@ -60,7 +60,8 @@
                nowarn="true">
             <compilerarg value="-Xlint:unchecked"/>
             <classpath refid="test.classpath"/>
-            <src path="${dir.test.src}"/>
+            <src path="${dir.perf.src}"/>
+	    <src path="${dir.test.src}"/>
         </javac>
         <junit printsummary="on"
                fork="false"

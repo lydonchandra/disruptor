@@ -15,19 +15,10 @@
  */
 package com.lmax.disruptor;
 
-import com.lmax.disruptor.support.StubEvent;
 import com.lmax.disruptor.support.ValueEvent;
 import com.lmax.disruptor.support.ValuePublisher;
 
-import org.hamcrest.Description;
-import org.jmock.Expectations;
-import org.jmock.Mockery;
-import org.jmock.Sequence;
-import org.jmock.api.Action;
-import org.jmock.api.Invocation;
-import org.jmock.integration.junit4.JMock;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
@@ -38,9 +29,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
-
-import static com.lmax.disruptor.support.Actions.countDown;
-import static org.junit.Assert.assertEquals;
 
 
 public final class ValuePublisherTest
@@ -82,7 +70,6 @@ public final class ValuePublisherTest
 		
 		barrier.await();
 		Future future2 = execService.submit(eventProcessor);
-		future2.get(1, TimeUnit.SECONDS);
 		
     }
 	

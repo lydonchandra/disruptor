@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/4/trunk/code/lib/test
+END
+jmock-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/code/lib/test/jmock-2.5.1.jar
+END
+hamcrest-library-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4/trunk/code/lib/test/hamcrest-library-1.1.jar
+END
+jmock-legacy-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/code/lib/test/jmock-legacy-2.5.1.jar
+END
+hamcrest-core-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4/trunk/code/lib/test/hamcrest-core-1.1.jar
+END
+objenesis-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/trunk/code/lib/test/objenesis-1.0.jar
+END
+junit-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/code/lib/test/junit-4.5.jar
+END
+jmock-junit4-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/code/lib/test/jmock-junit4-2.5.1.jar
+END
+cglib-nodep-2.1_3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4/trunk/code/lib/test/cglib-nodep-2.1_3.jar
+END

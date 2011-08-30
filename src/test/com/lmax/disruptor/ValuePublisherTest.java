@@ -15,13 +15,7 @@
  */
 package com.lmax.disruptor;
 
-import com.lmax.disruptor.support.ValueEvent;
-import com.lmax.disruptor.support.ValuePublisher;
-
-import org.junit.Test;
-
 import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -29,6 +23,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
+
+import junit.framework.Assert;
+
+import org.junit.Test;
+
+import com.lmax.disruptor.support.ValueEvent;
+import com.lmax.disruptor.support.ValuePublisher;
 
 
 public final class ValuePublisherTest
@@ -63,6 +64,7 @@ public final class ValuePublisherTest
 					public void onEvent(ValueEvent event, boolean endOfBatch)
 							throws Exception {
 						System.out.println("Event " + event.getValue());
+						Assert.assertTrue(event.getValue() < 10);
 					}
 			
 				}

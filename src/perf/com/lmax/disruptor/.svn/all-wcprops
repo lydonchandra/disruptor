@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/279/trunk/code/src/perf/com/lmax/disruptor
+END
+Pipeline3StepLatencyPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/279/trunk/code/src/perf/com/lmax/disruptor/Pipeline3StepLatencyPerfTest.java
+END
+Pipeline3StepPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/Pipeline3StepPerfTest.java
+END
+UniCast1P1CPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/UniCast1P1CPerfTest.java
+END
+MultiCast1P3CPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/MultiCast1P3CPerfTest.java
+END
+AbstractPerfTestQueueVsDisruptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/201/trunk/code/src/perf/com/lmax/disruptor/AbstractPerfTestQueueVsDisruptor.java
+END
+UniCast1P1CBatchPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/UniCast1P1CBatchPerfTest.java
+END
+DiamondPath1P3CPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/DiamondPath1P3CPerfTest.java
+END
+Sequencer3P1CPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/278/trunk/code/src/perf/com/lmax/disruptor/Sequencer3P1CPerfTest.java
+END

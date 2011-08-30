@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/271/trunk/code/src/main/com/lmax/disruptor/wizard
+END
+ConsumerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/259/trunk/code/src/main/com/lmax/disruptor/wizard/ConsumerInfo.java
+END
+ExceptionHandlerSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/265/trunk/code/src/main/com/lmax/disruptor/wizard/ExceptionHandlerSetting.java
+END
+ConsumerRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/265/trunk/code/src/main/com/lmax/disruptor/wizard/ConsumerRepository.java
+END
+DisruptorWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/271/trunk/code/src/main/com/lmax/disruptor/wizard/DisruptorWizard.java
+END
+EventHandlerGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/263/trunk/code/src/main/com/lmax/disruptor/wizard/EventHandlerGroup.java
+END

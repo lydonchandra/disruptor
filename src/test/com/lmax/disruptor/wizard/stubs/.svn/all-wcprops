@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/263/trunk/code/src/test/com/lmax/disruptor/wizard/stubs
+END
+ExceptionThrowingEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/259/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/ExceptionThrowingEventHandler.java
+END
+DelayedEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/263/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/DelayedEventHandler.java
+END
+StubExceptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/259/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/StubExceptionHandler.java
+END
+EvilEqualsEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/259/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/EvilEqualsEventHandler.java
+END
+StubPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/263/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/StubPublisher.java
+END
+NoOpEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/263/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/NoOpEventHandler.java
+END
+StubExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/263/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/StubExecutor.java
+END
+EventHandlerStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/259/trunk/code/src/test/com/lmax/disruptor/wizard/stubs/EventHandlerStub.java
+END

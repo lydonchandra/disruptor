@@ -38,6 +38,7 @@ public final class ValueQueuePublisherTest
 		CyclicBarrier cyclicBarrier = new CyclicBarrier(2);
 		BlockingQueue<Long> blockingQueue = new ArrayBlockingQueue<Long>(10);
 		ValueQueuePublisher valueQueuePublisher = new ValueQueuePublisher(cyclicBarrier, blockingQueue, 10 );
+		
 		ExecutorService execSvc = Executors.newFixedThreadPool(2);
 		execSvc.submit(valueQueuePublisher);
 		
@@ -47,6 +48,15 @@ public final class ValueQueuePublisherTest
 		execSvc.submit(processor);
 		
 		Assert.assertEquals(cyclicBarrier.getNumberWaiting(), 0);
+		Assert.assertEquals(processor.getValue(), 45L );
+		Assert.assertEquals(processor.getSequence(), 10L );
+		
+		processor.reset();
+		Assert.assertEquals(processor.getValue(), 0L );
+		Assert.assertEquals(processor.getSequence(), -1L );
+		
+		processor.halt();
+		
     }
 	
 }

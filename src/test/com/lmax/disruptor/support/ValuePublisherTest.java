@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.lmax.disruptor;
+package com.lmax.disruptor.support;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -28,6 +28,12 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
+import com.lmax.disruptor.BatchEventProcessor;
+import com.lmax.disruptor.ClaimStrategy;
+import com.lmax.disruptor.EventHandler;
+import com.lmax.disruptor.RingBuffer;
+import com.lmax.disruptor.WaitStrategy;
+import com.lmax.disruptor.ClaimStrategy.Option;
 import com.lmax.disruptor.support.ValueEvent;
 import com.lmax.disruptor.support.ValuePublisher;
 
